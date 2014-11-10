@@ -10,5 +10,5 @@ Black And White Circles
 "Ocean" Spray Blue  
 !["Ocean" Spray Blue](images/sprayCircle_1_small.png)
 
-Multicolor Swoopy Lines with Fill
+Multicolor Swoopy Lines with Fill  
 ![Multicolor Swoopy Lines with Fill](images/swoopLines_1_small.png)
