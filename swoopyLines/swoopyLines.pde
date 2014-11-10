@@ -33,16 +33,11 @@ for (int m = 0; m < 20; m++) { //How many images do we want
   println();
   String dateString = y + "-" + mon + "-" + d;
   println(dateString);
-  //String timeString = h + ':' + nf(min, 2);
-  //println(timeString);
   String theHour = str(h);
-  //println(theHour);
   String theMinute = nf(min, 2);
-  //println(theMinute);
   String timeString = theHour + "_" + theMinute;
   println(timeString);
   save(dateString + "__" + timeString + "_" + nf(second(), 2) + "_.png");
-  //save(y + "-" + mon + "-" + d + "_" + h + '_' + nf(min, 2) + "_" + ".png");
 }
 
   
