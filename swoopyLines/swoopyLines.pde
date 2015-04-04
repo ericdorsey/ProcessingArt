@@ -1,7 +1,8 @@
 import processing.pdf.*;
-size(800,800);
+//size(800,800);
+size(1500,1500);
 //How many images do we want
-int numImages = 100; 
+int numImages = 30; 
 for (int m = 0; m < numImages; m++) { 
   //Date information for the .PDF and .PNG output
   int y = year();
@@ -31,8 +32,10 @@ for (int m = 0; m < numImages; m++) {
     beginShape();
     curveVertex(0, 0);
     for (int k = 0; k < 10; k++) { //layer depth
-      int cvDynamic1 = int(random(150, 700));
-      int cvDynamic2 = int(random(100, 700));
+      //int cvDynamic1 = int(random(150, 700));
+      //int cvDynamic2 = int(random(100, 700));
+      int cvDynamic1 = int(random(150, 1400));
+      int cvDynamic2 = int(random(100, 1400));
       int randomStroke = int(random(1,5));
       strokeWeight(randomStroke);
       int randomOpacity = int(random(180,200));
